@@ -62,7 +62,7 @@ end)
 	local Toggle = clienttab:CreateToggle({
 		Name = "Farm Goku",
 		CurrentValue = false,
-		Flag = "gokufarm", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+		Flag = "gokufarm",
 		Callback = function(toggle)
 			if toggle then
 				getgenv().gokutoggle = true
