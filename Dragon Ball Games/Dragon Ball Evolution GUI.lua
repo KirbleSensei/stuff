@@ -86,3 +86,5 @@ end)
 		end,
 	})
 end
+
+local Paragraph = clienttab:CreateParagraph({Title = "ddd", Content = "i love norweigan girls"})
